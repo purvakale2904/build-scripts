@@ -37,7 +37,7 @@ cmake .. \
     -DCMAKE_BUILD_TYPE=Release \
     -DSPM_ENABLE_SHARED=ON
 make -j"$(nproc)"
-sudo make install
+make install
 cd ..
 
 # Build Python wheel
