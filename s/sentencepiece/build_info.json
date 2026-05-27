@@ -5,6 +5,7 @@
   "version": "v0.2.1",
   "wheel_build": true,
   "package_dir": "s/sentencepiece",
+  "python_package_dir": "python",
   "default_branch": "master",
   "build_script": "sentencepiece_ubi_9.6.sh",
   "docker_build": false,
@@ -14,4 +15,5 @@
     "build_script": "sentencepiece_ubi_9.6.sh"
   }
 }
+
 
